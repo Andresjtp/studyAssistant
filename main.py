@@ -6,7 +6,7 @@ def create_study_plan(topics):
     Use AI to create a study plan for a list of topics.
 
     TODO:
-    Implement this function using Mellea.
+    Please, work on implementing this function using Mellea.
     """
 
     # TODO: Write your Mellea code here
