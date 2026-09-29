@@ -2,8 +2,8 @@ import mellea
 
 m = mellea.start_session()
 
+
 def create_study_plan(topics):
-    
     response = m.instruct(
         """
         create a study plan for the following topics: 
@@ -15,7 +15,7 @@ def create_study_plan(topics):
         - give 1 or 2 example problems for the students to solve
         - organize the topics into a logic study order. 
         """
-    ) 
+    )
     return str(response)
 
 
